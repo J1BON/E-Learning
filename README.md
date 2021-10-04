@@ -20,7 +20,7 @@ this project is made by Jiban Ahammed. You can easily build your E-learnig Websi
 ## Demo
 
 
-https://esports-team.netlify.app/
+https://edu-point.netlify.app/home
   
 ## 🚀 About Me
 I'm a full stack junior developer...
