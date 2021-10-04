@@ -1,0 +1,25 @@
+.footer {
+    background: black;
+}
+
+.footer-content {
+    color: #ffff;
+    padding: 30px 60px;
+    justify-content: center;
+    align-items: center;
+}
+
+.social p i {
+    font-size: 27px;
+    padding: 10px;
+}
+
+ul li a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.text {
+    width: 190px;
+    height: 50px;
+}

@@ -1,0 +1,19 @@
+.courses {
+    display: flex;
+    align-items: center;
+}
+
+.course-description h1 {
+    font-size: 70px;
+    color: #F85B31;
+}
+
+.course-description p {
+    font-size: 20px;
+}
+
+.line {
+    background: #F85B31;
+    width: 5px;
+    height: 200px;
+}
