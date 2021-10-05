@@ -7,12 +7,12 @@ const Campus = () => {
         <div className='container'>
             <div className="campus-title text-center p-4">
             <h1>Welcome To Our Campus</h1>
-            <p>we have a large friendly campus.Here you will get all kinds of necessary things.</p>
+            <p className='text-muted'>we have a large friendly campus.Here you will get all kinds of necessary things.</p>
             </div>
              <div className='row'>
-            <div className="col-6 campus-status">
-                <div className="row">
-                  <div className=" col-6 ">
+            <div className="col-sm-12 col-md-6 campus-status ">
+                <div className="row mx-auto">
+                  <div className=" col-6 mx-auto">
                       <p><i class="fas fa-graduation-cap"></i></p>
                       <h3>99%</h3>
                       <p><small>Graduates</small></p>
@@ -34,7 +34,7 @@ const Campus = () => {
                   </div>  
                </div>
             </div>
-            <div className="col-6 campus-cover">
+            <div className="col-sm-12 col-md-6 campus-cover d-flex align-items-center">
             <Carousel fade>
                 <Carousel.Item>
                     <img

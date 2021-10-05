@@ -1,17 +1,18 @@
 import React from 'react';
-import { Card } from 'react-bootstrap';
+import './TeacherCard.css'
+
 
 const TeacherCard = (props) => {
     const {name, img, description} = props.teacher
 
     return (
-        <div className='d-flex col-6 mx-auto justify-content-center m-3 align-items-center'>
+        <div className='d-lg-flex col-sm-12 col-md-6 col-lg-6  m-3 mx-auto body  '>
             <div className="img">
-                <img src={img} alt="" className='rounded'/>
+                <img src={img} alt="" className='rounded mb-3'/>
             </div>
             <div className="title ms-3">
-                <h3>{name}</h3>
-                <p>{description}</p>
+                <h4>{name}</h4>
+                <h6 className='text-muted'>{description}</h6>
             </div>
         </div>
     );

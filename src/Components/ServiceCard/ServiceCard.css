@@ -1,4 +1,9 @@
 .card:hover {
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-    text-align: center;
+    box-shadow: 0 4px 8px 0 rgba(209, 112, 0, 0.2);
+
+}
+
+.card-body {
+    background: rgba(128, 128, 128, 0.075);
+    border-radius: 5px;
 }

@@ -6,8 +6,8 @@ const Allservices = (props) => {
     const{name, img, price,desciption} = props.services
 
     return (
-        <div className='col-4 '>
-            <Card style={{ width: '20rem' }}  className='Card mx-auto border-0 mb-3'>
+        <div className='col-sm-12 col-md-6 col-lg-4 '>
+            <Card style={{ width: '20rem' }}  className='Card mx-auto border-0 mb-4'>
                 <Card.Img variant="top" src={img} />
                 <Card.Body>
                     <Card.Title>{name}</Card.Title>

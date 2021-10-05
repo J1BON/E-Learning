@@ -8,7 +8,7 @@ const Header = () => {
         <div className="Header">
            <Navbar  expand="lg" className='navbar-dark'>
   <Container >
-    <Navbar.Brand href="#home" className="fw-bold"><i className="fas fa-chalkboard-teacher"></i> EDU-POINT</Navbar.Brand>
+    <Link to="/home" className="fw-bold navbar-brand"><i className="fas fa-chalkboard-teacher"></i> EDU-POINT</Link>
     <Navbar.Toggle aria-controls="basic-navbar-nav" />
     <Navbar.Collapse id="basic-navbar-nav">
       <Nav className="ms-auto">
@@ -22,7 +22,7 @@ const Header = () => {
 </Navbar>
 <div className="Banner">
      <div className="banner-content">
-                    <h1>We are ready to take the challenge</h1>
+        <h1>We are ready to take the challenge</h1>
         <p>A learning community dedicated to building respectful and responsible citizens and empowering all learners.</p>            
      </div>
 </div>

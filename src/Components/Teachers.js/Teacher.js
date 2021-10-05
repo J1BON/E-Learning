@@ -12,9 +12,9 @@ const Teacher = () => {
 
     return (
         <div className='m-5'>
-            <div className='text-center mb-5'>
-                <h1>Expert Trainers</h1>
-                <p>Meet our expert trainers. They will guide you in full course with their best</p>
+            <div className='text-center mb-5 title'>
+                <h1>Expert Trainers <i className="fas fa-user-graduate"></i></h1>
+                <p className='text-muted'>Meet our expert trainers. They will guide you in full course with their best</p>
             </div>
              <div className='row container mx-auto'>
             {teachers.map(teacher => <TeacherCard teacher={teacher}></TeacherCard>)}

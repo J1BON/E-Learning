@@ -5,8 +5,8 @@ import './ServiceCard.css'
 const ServiceCard = (props) => {
     const {name, img, price, desciption} = props.service
     return (
-        <div className='player col-4 mx-2 mb-4'>
-           <Card style={{ width: '20rem' }} className='border-0 card'>
+        <div className='player col-sm-12 col-md-6 col-lg-6 mb-5 p-0'>
+           <Card style={{ width: '18rem' }} className='border-0 card mx-auto'>
                 <Card.Img variant="top" src={img} className='img-fluid' />
                 <Card.Body className='card-body'>
                     <Card.Title>{name}</Card.Title>

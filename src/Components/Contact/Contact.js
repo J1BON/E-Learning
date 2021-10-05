@@ -5,7 +5,7 @@ import './Contact.css'
 const Contact = () => {
     return (
         <div className='container mx-auto p-5 m-5'>
-            <div className="d-flex justify-content-around">
+            <div className="d-md-flex justify-content-between">
                 <div className="adress">
                     <div className="adress-item d-flex">
                         <div className="logo">
@@ -34,9 +34,9 @@ const Contact = () => {
                 </div>
                 <div className="message">
                 <h2 className='mb-3'>Need Help? Send us a message :)</h2>
-                    <p><input type="text" name="" id="" placeholder='Frist Name' /></p>
-                    <p><input type="email" name="" id="" placeholder='Email' /></p>
-                     <p> <textarea className='text' name="" id="" cols="30" rows="10"></textarea></p>
+                    <p><input type="text" name="" id="" placeholder='Frist Name' className='border-info'/></p>
+                    <p><input type="email" name="" id="" placeholder='Email' className='border-warning' /></p>
+                     <p> <textarea className='text border-info' name="" id="" cols="30" rows="10" ></textarea></p>
                      <button className="btn btn-outline-danger">Submit</button>  
                 </div>
            </div>

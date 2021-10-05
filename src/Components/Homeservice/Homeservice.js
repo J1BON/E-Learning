@@ -13,19 +13,21 @@ const Homeservice = () => {
 
     return (
         // main div
-        <div className='row g-0 p-5' >
+        <div className='row d-flex flex-warp g-0 container mx-auto mt-5' >
 
-            <div className='row col-7 justify-content-evenly'>
-            {
+            <div className='col-lg-7 col-sm-12 col-md-12'>
+                <div className="row justify-content-md-center mx-auto">
+                {
                 services.map(service =><ServiceCard service={service}></ServiceCard>)
-            }
+                }
+                </div>
             </div>
 
-            <div className="col-5 courses">
+            <div className="col-lg-5 col-sm-12 col-md-12 courses p-5">
                 <div className='line me-4'></div>
                 <div className="course-description">
-                <h1>Popular Courses</h1>
-                <p>Welcome to EDU-POINT.Here you will get wrold class education service.We have our best teachers.They will help you untill you understand the whole concept.Here are our most popular 4 service.Fell free to enroll your favortie course. For any query contact us in support.</p>
+                <h1>Popular Courses <i class="fas fa-laptop-code"></i></h1>
+                <p className='text-muted'>Welcome to EDU-POINT.Here you will get wrold class education service.We have our best teachers.They will help you untill you understand the whole concept.Here are our most popular 4 service.Fell free to enroll your favortie course. For any query contact us in support.</p>
                 </div>
             </div>
         </div>
