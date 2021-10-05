@@ -1,3 +1,10 @@
 .notFound h1 {
     font-size: 60px;
 }
+
+.notFound {
+    display: flex;
+    height: 500px;
+    align-items: center;
+    justify-content: center;
+}
