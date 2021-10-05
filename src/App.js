@@ -7,11 +7,14 @@ import About from './Components/AboutUs/About';
 import ContactUs from './Components/ContactUS/ContactUs';
 import Notfound from './Components/Notfound/Notfound';
 import { BrowserRouter, Switch, Route } from 'react-router-dom';
+import Header from './Components/Header/Header';
+import Footer from './Components/Footer/Footer';
 
 function App() {
   return (
     <div className="App">
       <BrowserRouter>
+      <Header></Header>
         <Switch>
           <Route path='/home'>
               <Home></Home>
@@ -32,6 +35,7 @@ function App() {
             <Notfound></Notfound>
           </Route>
         </Switch>
+        <Footer></Footer>
       </BrowserRouter>
     </div>
   );

@@ -15,7 +15,6 @@ const Services = () => {
 
     return (
         <div>
-            <Header></Header>
             <div>
                 <div className="service-title text-center m-5">
                     <h1>Regular Courses <i class="fas fa-laptop-code"></i></h1>
@@ -27,7 +26,6 @@ const Services = () => {
                     ></Allservices>)}
                 </div>
             </div>
-            <Footer></Footer>
         </div>
     );
 };

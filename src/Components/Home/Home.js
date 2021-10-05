@@ -7,10 +7,8 @@ import Homeservice from '../Homeservice/Homeservice';
 const Home = () => {
     return (
         <div>
-            <Header></Header>
             <Homeservice></Homeservice>
             <Campus></Campus>
-            <Footer></Footer>
         </div>
     );
 };

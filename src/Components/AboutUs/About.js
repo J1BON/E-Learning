@@ -7,10 +7,8 @@ import Teacher from '../Teachers.js/Teacher';
 const About = () => {
     return (
         <div>
-            <Header></Header>
             <Teacher></Teacher>
             <Campus></Campus>
-            <Footer></Footer>
         </div>
     );
 };
