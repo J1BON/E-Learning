@@ -34,9 +34,9 @@ const Contact = () => {
                 </div>
                 <div className="message">
                 <h2 className='mb-3'>Need Help? Send us a message :)</h2>
-                    <p><input type="text" name="" id="" placeholder='Frist Name' className='border-info'/></p>
-                    <p><input type="email" name="" id="" placeholder='Email' className='border-warning' /></p>
-                     <p> <textarea className='text border-info' name="" id="" cols="30" rows="10" ></textarea></p>
+                    <p><input type="text" name="" id="" placeholder='Frist Name' className='input'/></p>
+                    <p><input type="email" name="" id="" placeholder='Email' className='input' /></p>
+                     <p> <textarea className='text input' name="" id="" cols="30" rows="10" ></textarea></p>
                      <button className="btn btn-outline-danger">Submit</button>  
                 </div>
            </div>

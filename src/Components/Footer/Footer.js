@@ -22,10 +22,10 @@ const Footer = () => {
             </div>
             <div className="from col-sm-12 col-md-4 ">
                     <h2>Send Message</h2>
-                    <p><input type="text" name="" id="" placeholder='Frist Name' /></p>
-                    <p><input type="email" name="" id="" placeholder='Email' /></p>
-                     <p> <textarea className='text' name="" id="" cols="30" rows="10"></textarea></p>
-                     <button className="btn btn-danger">Submit</button>
+                    <p><input type="text" name="" id="" placeholder='First Name' className='text-i ' /></p>
+                    <p><input type="email" name="" id="" placeholder='Email' className='text-i'/></p>
+                     <div> <textarea className='text' name="" id="" cols="30" rows="10"></textarea></div>
+                     <button className="btn btn-warning">Submit</button>
             </div>
         </div>
         <p className='text-center text-white m-0 pb-3'>Copyright & copy 2021. All Rights Reserved Jiban Ahammed.</p>

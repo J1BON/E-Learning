@@ -27,7 +27,7 @@ const Homeservice = () => {
                 <div className='line me-4'></div>
                 <div className="course-description">
                 <h1>Popular Courses <i class="fas fa-laptop-code"></i></h1>
-                <p className='text-muted'>Welcome to EDU-POINT.Here you will get wrold class education service.We have our best teachers.They will help you untill you understand the whole concept.Here are our most popular 4 service.Fell free to enroll your favortie course. For any query contact us in support.</p>
+                <p className='text-muted'>Welcome to EDU-POINT.Here you will get world-class education service. We have our best teachers. They will help you until you understand the whole concept. Here are our most popular 4 services. Feel free to enroll in your favorite course. For any query contact us in support.</p>
                 </div>
             </div>
         </div>
